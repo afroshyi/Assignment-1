@@ -1,60 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="stylesabout.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Afroz's Website Resume</title>
-    
 </head>
-
 
 <body>
     <header id="header">
-        <div class="header header-container">
-            <div>
-                <div class="navBar">
-                    <div class="logo">
-                        <h1><span>Afroz Akram</span></h1>
-                    </div>
-                    <nav class="navList">
-                        <div class="navLines">
-                            <div class="bar"></div>
-                        </div>
-                        <ul>
-                            <nav><li><a href="index.html">Home</a></li></nav>
-                            <nav><li><a href="projects.html">Projects</a></li></nav>
-                            <nav><li><a href="contactme.html">Contact Me</a></li></nav>     
-                        </ul>
-                    </nav>
-                </div>
+        <div class="header-container">
+            <div class="logo">
+                <h1><span>Afroz Akram</span></h1>
             </div>
+            <nav class="navList">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contactme.html">Contact Me</a></li>     
+                </ul>
+            </nav>
         </div>
     </header>
-    
+
+    <!-- Video Section -->
     <section id="video">
-        <div class="video containter">
-            <div class="colLeft">
-                <div class="videoImg">
-                </div>
-            </div>
-            <div class="colRight">
-                <h1 class="sectionTitle">About <span>Me</span></h1>
-                <article>
-                    <h3><b>My name is Afroz Akram, I currently go to Ontario Tech university</b></h3>
-                    
-                </article>
-                <video controls="controls" poster="poster.png">
-                    <source src="video.mp4">
-                    Browser unable to play video.
-                </video>
-            </div>
+        <div class="video-container">
+            <h1 class="sectionTitle">About <span>Me</span></h1>
+            <article>
+                <h3><b>My name is Afroz Akram, I currently go to Ontario Tech university</b></h3>
+            </article>
+            <video controls autoplay unmuted poster="poster.png">
+                <source src="video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
         </div>
     </section>
 
-    <section id="picture">
-        
-    </section>
-
+    <!-- Footer -->
+    <footer>
+        <p>Contact Me: afrozakram11@gmail.com</p>
+        <p>&copy; 2024 Afroz Akram. All rights reserved.</p>
+    </footer>
 </body>
 </html>
