@@ -62,6 +62,71 @@ footer {
     bottom: 0;
 }
 
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.btn1 {
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    color: #303030;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.btn2 {
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    color: #303030;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+
+.btn3 {
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    color: #303030;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.btn1:nth-child(1) {
+    background-color: #6ef16e;
+}
+
+.btn2:nth-child(1) {
+    background-color: #ff7070;
+}
+
+.btn3:nth-child(1) {
+    background-color: #58ecec;
+}
+
+.btn1:hover {
+    transform: scale(1.1);
+    background-color: #26ce26;
+}
+
+.btn2:hover {
+    transform: scale(1.1);
+    background-color: #ff4545;
+}
+
+.btn3:hover {
+    transform: scale(1.1);
+    background-color: #13a0a0;
+}
+
 @media (max-width: 1024px) {
     .navbar {
         flex-direction: column;
@@ -77,6 +142,11 @@ footer {
         margin-left: 0;
         text-align: center;
         width: 100%;
+    }
+
+    .container {
+        flex-direction: column;
+        gap: 10px;
     }
 }
 
