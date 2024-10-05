@@ -16,10 +16,6 @@ body {
 header {
     background: linear-gradient(90deg, #1b2735, #361010);
     padding: 20px;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 1000;
 }
 
 .header-container {
@@ -52,7 +48,7 @@ header {
 }
 
 .navList a:hover {
-    color: #f4007a;
+    color: #f4b400;
 }
 
 .pic {
