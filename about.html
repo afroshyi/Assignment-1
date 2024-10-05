@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="stylesabout.css">
+    <link rel="stylesheet" href="styles.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Me</title>
@@ -23,31 +23,32 @@
         </div>
     </header>
     
-    <div class="pic">
-        <div class="picture">
-            <img src="me.jpg" alt="Image of me">
-            <div class="content">
-                <p>My name is Afroz Akram, I currently go to Ontario Tech university</p>
+    <main>
+        <div class="pic">
+            <div class="picture">
+                <img src="me.jpg" alt="Image of me" class="centered-img">
+                <div class="content">
+                    <h1>About Me</h1>
+                    <p>My name is Afroz Akram, and I currently go to Ontario Tech University.</p>
+                </div>
             </div>
         </div>
-    </div>
 
-    <!-- Video Section -->
-    <section id="video">
-        <div class="video-container">
 
-            <video controls unmuted poster="poster.png">
-                <source src="video.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
-        </div>
-    </section>
+        <section id="video">
+            <div class="video-container">
+                <video controls unmuted poster="poster.png" class="centered-video">
+                    <source src="video.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </section>
+    </main>
 
-    <!-- Footer -->
+
     <footer>
         <p>Contact Me: afrozakram11@gmail.com</p>
         <p>&copy; 2024 Afroz Akram. All rights reserved.</p>
     </footer>
 </body>
 </html>
-
